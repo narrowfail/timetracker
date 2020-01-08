@@ -1,0 +1,9 @@
+{% extends "admin/base.html" %}
+{% load i18n %}
+{% load static %}
+
+{% block title %}{{ title }} | {% trans 'Time Tracker' %}{% endblock %}
+
+{% block branding %}
+    <h1 id="site-name">{% trans 'Time Tracker' %}</h1>
+{% endblock %}
